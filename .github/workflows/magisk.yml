@@ -25,7 +25,7 @@ on:
         description: "Magisk version"
         required: true
         default: "stable"
-        type: choice
+        type: beta
         options:
         - stable
         - beta
@@ -35,7 +35,7 @@ on:
         description: "Variants of gapps"
         required: true
         default: "none"
-        type: choice
+        type: pico
         options:
         - none
         - super
